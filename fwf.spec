@@ -7,6 +7,7 @@ License:	GPL (?)
 Group:		Applications
 Source0:	ftp://sunsite.unc.edu/pub/X11/fwf/%{name}.tar.gz
 # Source0-md5:	4d0798a388cb6020a5b304256f300578
+Patch0:		fwf-ssp.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -17,9 +18,13 @@ Free Widgets Foundation - wolnodostêpna podstawa widgetów.
 
 %prep
 %setup -q -n FWF
+%patch0 -p1
 
 %build
 
+#cd src
+xmkmf
+%{__make} Makefiles
 %{__make} \
 	CFLAGS="%{rpmcflags}" \
 	LDFLAGS="%{rpmldflags}"

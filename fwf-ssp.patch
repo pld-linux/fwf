@@ -1,0 +1,14 @@
+--- FWF/src/Wbuild.rule~	2005-12-07 21:21:27.000000000 +0100
++++ FWF/src/Wbuild.rule	2005-12-07 21:21:27.000000000 +0100
+@@ -13,11 +13,7 @@
+ 
+ WIDGETDOC = `echo $(WIDGET)|cut -c1-8`.doc
+ 
+-#ifdef SystemV
+-SSP = ssp
+-#else
+ SSP = cat -s
+-#endif
+ 
+ /* RequireThisFileForInit($(WIDGET).c) */
+ 
