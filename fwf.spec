@@ -1,5 +1,5 @@
 Summary:	Free Widgets Foundation
-Summary(pl):	Free Widgets Foundation - wolnodostêpna podstawa widgetów
+Summary(pl.UTF-8):   Free Widgets Foundation - wolnodostÄ™pna podstawa widgetÃ³w
 Name:		fwf
 Version:	0
 Release:	0.1
@@ -13,8 +13,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Free Widgets Foundation.
 
-%description -l pl
-Free Widgets Foundation - wolnodostêpna podstawa widgetów.
+%description -l pl.UTF-8
+Free Widgets Foundation - wolnodostÄ™pna podstawa widgetÃ³w.
 
 %prep
 %setup -q -n FWF
