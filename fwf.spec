@@ -1,5 +1,5 @@
 Summary:	Free Widgets Foundation
-Summary(pl.UTF-8):   Free Widgets Foundation - wolnodostępna podstawa widgetów
+Summary(pl.UTF-8):	Free Widgets Foundation - wolnodostępna podstawa widgetów
 Name:		fwf
 Version:	0
 Release:	0.1
