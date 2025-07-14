@@ -18,7 +18,7 @@ Free Widgets Foundation - wolnodostępna podstawa widgetów.
 
 %prep
 %setup -q -n FWF
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 
